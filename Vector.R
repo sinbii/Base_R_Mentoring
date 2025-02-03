@@ -164,11 +164,11 @@ set_y <- c(3:5)
 set_z <- c(3,1,2) # set_x와 set_z는 같을까?
 
 union(x,y) # 합집합
-intersect(x,y) # 여러분이 직접 채워보세요!
-setdiff(x,y) # 여러분이 직접 채워보세요!
-setdiff(y,x) # 여러분이 직접 채워보세요!
-setequal(x,y) # 여러분이 직접 채워보세요!
-setequal(x,z) # 여러분이 직접 채워보세요!
+intersect(x,y) 
+setdiff(x,y) 
+setdiff(y,x) 
+setequal(x,y)
+setequal(x,z) 
 isTRUE(set_x == set_z)
 
 '''
